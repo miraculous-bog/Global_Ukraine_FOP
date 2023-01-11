@@ -1,10 +1,11 @@
 const langArr = {
 	"possibility-title": {
-		"ua": "Українці в Європі",
+		"ua": "Global Ukraine Card відкриває Європу для Українського бізнесу!",
 		"en": "Ukrainians in Europe",
 	},
 	"possibility-text": {
-		"ua": "Ви маєте надзвичайну можливість відкриття єврорахунку в Єврозоні - завдяки необанку Global Ukraine !",
+		"ua": `Відкрийте рахунок в Європі для вашого ФОПа на Українські документи. Користуйтесь перші 15 днів
+		БЕЗКОШТОВНО.`,
 		"en": "You have an extraordinary opportunity to open a euro account in the Eurozone - thanks to the neobank Global Ukraine!",
 	},
 	"main-btn-1": {
