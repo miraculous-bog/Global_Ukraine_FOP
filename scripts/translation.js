@@ -1,178 +1,197 @@
 const langArr = {
-	"possibility-title": {
+	"mainSlide-title": {
 		"ua": "Global Ukraine Card відкриває Європу для Українського бізнесу!",
-		"en": "Ukrainians in Europe",
+		"en": "",
 	},
-	"possibility-text": {
-		"ua": `Відкрийте рахунок в Європі для вашого ФОПа на Українські документи. Користуйтесь перші 15 днів
-		БЕЗКОШТОВНО.`,
-		"en": "You have an extraordinary opportunity to open a euro account in the Eurozone - thanks to the neobank Global Ukraine!",
+	"mainSlide-text": {
+		"ua": "Відкрийте рахунок в Європі для вашого ФОПа на Українські документи. Користуйтесь перші 15 днів БЕЗКОШТОВНО.",
+		"en": "",
 	},
-	"main-btn-1": {
-		"ua": "Оформити картку",
-		"en": "Get a card",
+	"animationAction-title": {
+		"ua": "Почніть користуватися зараз!",
+		"en": "",
 	},
-	"call": {
-		"ua": "Служба<br>підтримки",
-		"en": "Helpdesk",
+	"fopAdvantages-title": {
+		"ua": "ВАША КАРТА VISA ВІД GLOBAL UKRAINE ЗАКОДОВАНА НА ПЕРЕМОГУ!",
+		"en": "",
 	},
-	"call-tg": {
-		"ua": "Служба<br>підтримки",
-		"en": "Helpdesk",
+	"fopAdvantages-text": {
+		"ua": `"Свій до свого по своє" - глобальні безкоштовні та безлімітні перекази між власниками рахунків та карт Global Ukraine.`,
+		"en": "",
 	},
-	"main-btn-2": {
-		"ua": "Оформити картку",
-		"en": "Get a card",
+	"fopAdvantages-item-title1": {
+		"ua": "Банківсьий рахунок ФОП в Єврозоні",
+		"en": "",
 	},
-	"main-btn-3": {
-		"ua": "Оформити картку",
-		"en": "Get a card",
+	"fopAdvantages-item-title2": {
+		"ua": "Віртуальні та фізичні картки",
+		"en": "",
 	},
-	"fake-btn": {
-		"ua": "Оформити картку",
-		"en": "Get a card",
+	"fopAdvantages-item-title3": {
+		"ua": "Переможний дизайн карти Global Ukraine",
+		"en": "",
 	},
-	"whom-title": {
-		"ua": "Для кого?",
-		"en": "For whom?",
+	"fopAdvantages-item-text1": {
+		"ua": "Для відкриття рахунку необхідно представити дійсний документ, який посвідчує особу, та адресу в Європі (постійну або тимчасову).",
+		"en": "",
 	},
-	"whom-first-text": {
-		"ua": "Українські ФОПи в Європі, які працюють з Європейськими або міжнародними партнерами та прагнуть фінансової стабільності, без конверсійних комісій та обмежень національних банків.",
-		"en": "Ukrainian private entrepreneurs (FOPs) in Europe who work with European or international partners and seek financial stability, without conversion commissions and restrictions of national banks.",
+	"fopAdvantages-item-text2": {
+		"ua": "Заощаджуйте гроші та уникайте комісій: у нас можна замовити декілька карток (віртуальних та/або пластикових) на один IBAN і визначити для кожної певний місячний ліміт витрат, в залежності від ваших потреб.",
+		"en": "",
 	},
-	"whom-second-text": {
-		"ua": "Українці в Європі, які потребують європейського банківського рахунку для зручного управління операціями в євро.",
-		"en": "Ukrainians in Europe who need a European bank account for convenient management of transactions in euros.",
+	"fopAdvantages-item-text3": {
+		"ua": "Приналежність до спільноти Global Ukraine - це створення нових можливостей для стрімкого зростання вашого бізнесу!",
+		"en": "",
 	},
-	"whom-third-text": {
-		"ua": "Всім українцям, хто підтримує створення української глобальної фінансової системи, з безкоштовними переказами, програмами лояльності та з можливістю генерувати соціальний кешбек для розвитку українських громад в світі.",
-		"en": "To all Ukrainians who support the creation of a Ukrainian global financial system, with free transfers, loyalty programs and the opportunity to generate social cashback for the development of Ukrainian communities in the world.",
+	"advantages-title": {
+		"ua": "ПЕРЕВАГИ",
+		"en": "",
 	},
-	"preferences-title": {
-		"ua": "Унікальні переваги",
-		"en": "Unique advantages",
+	"advantages-sale": {
+		"ua": "<span>-30%</span> на рахунок фізичної особи, якщо ви обираєте тарифний план ТРИЗУБ для вашого рахунку ФОП",
+		"en": "",
 	},
-	"preferences-first-text": {
-		"ua": "Відкрити Єврорахунок в Єврозоні на основі українських документів",
-		"en": "Open a Euro Account in the Eurozone based on Ukrainian documents",
+	"advantages-text-item1": {
+		"ua": "Зручний банківський додаток і клієнтська підтримка українською мовою.",
+		"en": "",
 	},
-	"preferences-second-text": {
-		"ua": "Замовити Європейську банківську карту з підтримкою українською мовою",
-		"en": "Order a European bank card with Ukrainian language support",
+	"advantages-text-item2": {
+		"ua": "Перекази між рахунками та картками Global Ukraine є безкоштовними та безлімітними",
+		"en": "",
 	},
-	"preferences-third-text": {
-		"ua": "Безкоштовні та безлімітні перекази між власниками карти Global Ukraine (незалежно від країни проживання).",
-		"en": "Free and unlimited transfers between Global Ukraine card holders (regardless of the country of residence)",
+	"advantages-text-item3": {
+		"ua": "Розвивайте свій бізнес та економте кошти (без конверсій, мінімальні комісії)",
+		"en": "",
 	},
-	"take-title": {
-		"ua": "Як отримати рахунок та картку Global Ukraine?",
-		"en": "How to open the account and get the card Global Ukraine?",
+	"advantages-text-item4": {
+		"ua": "Отримання коштів від та / або розрахунки з міжнародними партнерами з європейських країн, США, Канади, Великобританії стають легкою справою",
+		"en": "",
 	},
-	"take-first-text": {
-		"ua": `Встановіть додаток "Global Ukraine Card" з App Store або Google Play.`,
-		"en": `Install the "Global Ukraine Card" app from App Store or Google Play.`,
+	"advantages-text-item5": {
+		"ua": "Банківський додаток Global Ukraine Card дозволяє відкрити декілька рахунків (для ФОП та для фізичної особи)",
+		"en": "",
 	},
-	"take-second-text": {
-		"ua": `Вкажіть свою адресу (постійну або тимчасову) в Європі.`,
-		"en": `Indicate your address (permanent or temporary) in Europe.`,
+	"advantages-title-item1": {
+		"ua": "Банкінг без складнощів та обмежень",
+		"en": "",
 	},
-	"take-third-text": {
-		"ua": "Сфотографуйте свій паспорт і зробіть селфі. ",
-		"en": "Take a picture of your passport and take a selfie. ",
+	"advantages-title-item2": {
+		"ua": "Глобальні безкоштовні перекази",
+		"en": "",
 	},
-	"take-fourth-text": {
-		"ua": "Активуйте свою віртуальну картку Global Ukraine VISA Debit і почніть здійснювати перекази або робити покупки онлайн.",
-		"en": "Activate your virtual Global Ukraine VISA Debit card and start making transfers or shopping online.",
+	"advantages-title-item3": {
+		"ua": "Банківський рахунок ФОП в євро (персональний IBAN)",
+		"en": "",
 	},
-	"take-fifth-text": {
-		"ua": "Замовте фізичну картку Global Ukraine VISA Debit (яку незабаром буде доставлено вам за вказаною європейською адресою). ",
-		"en": "Order your physical Global Ukraine VISA Debit card (which will soon be delivered to you at the indicated European address).",
+	"advantages-title-item4": {
+		"ua": "Міжнародні перекази без головного болю",
+		"en": "",
 	},
-	"chance-text": {
-		"ua": "Хочете бути в першій тисячі українців, котрі матимуть банківську карту Global Ukraine?",
-		"en": "Do you want to be among the first thousand Ukrainians who will have a Global Ukraine bank card?",
+	"advantages-title-item5": {
+		"ua": "Один додаток для різних рішень",
+		"en": "",
 	},
-	"investments-title": {
-		"ua": "Свій до свого по своє",
-		"en": "Building bridges and supporting communities",
+	"marketplace": {
+		"ua": "Почніть користуватися зараз!",
+		"en": "",
 	},
-	"investments-text": {
-		"ua": "Половина прибутку необанку буде спрямована на підтримку та захист українських громад в світі!",
-		"en": "Global Ukraine works under the European license of EMI to create the first Ukrainian neobank in Europe.<br>Half of the profit of the neobank will be directed to the support and protection of Ukrainian communities in the world!",
+	"instruction-title": {
+		"ua": "ЯК ВІДКРИТИ РАХУНОК ТА ОТРИМАТИ КАРТКУ GLOBAL UKRAINE?",
+		"en": "",
 	},
-	"form-title": {
-		"ua": "Завантажити картку Global Ukraine",
-		"en": `Download the application "Global Ukraine card"`,
+	"instruction-item1": {
+		"ua": `Встановіть додаток "Global Ukraine Card" з App Store або Google Play`,
+		"en": "",
 	},
-	"checkbox-first": {
-		"ua": "Індивідуальний рахунок (фізособа)",
-		"en": "Individual account",
+	"instruction-item2": {
+		"ua": "Вкажіть свою адресу (постійну або тимчасову) в Європі",
+		"en": "",
 	},
-	"checkbox-second": {
-		"ua": "Корпоративний рахунок (ФОП)",
-		"en": "Corporate account ( FOP|PE)",
+	"instruction-item3": {
+		"ua": "Сфотографуйте свій паспорт і зробіть селфі",
+		"en": "",
 	},
-	"suport-title": {
-		"ua": "Служба підтримки",
-		"en": "Helpdesk",
+	"instruction-item4": {
+		"ua": "Після перевірки особистості, ваш європейський ФОП рахунок в євро створено - почніть здійснювати перекази",
+		"en": "",
 	},
-	"program-title": {
-		"ua": "Програми лояльності",
-		"en": "Loyalty programs",
+	"instruction-item5": {
+		"ua": "Активуйте віртуальну картку Global Ukraine VISA Debit, щоб робити покупки онлайн",
+		"en": "",
 	},
-	"program-text": {
-		"ua": `Український бізнес та міжнародні компанії можуть запропонувати власникам карток Global Ukraine Card програми лояльності, надсилаючи свої пропозиції поштою на <a href="maito:pr@global-ukraine.org">pr@global-ukraine.org.</a>`,
-		"en": `Ukrainian businesses and international companies can propose loyalty programs to the Global Ukraine Cards holders, by sending your offers by mail to  <a href="maito:pr@global-ukraine.org">pr@global-ukraine.org .</a>`,
+	"instruction-item6": {
+		"ua": "Замовте фізичну картку Global Ukraine VISA Debit",
+		"en": "",
 	},
-	"suport-text": {
-		"ua": "Спілкуйтеся з реальними людьми, які зроблять неможливе, щоб ефективно відповісти на ваші запитання через Месенджер",
-		"en": "Communicate with real people, who will do the impossible to answer your questions efficiently. Contact with us via Facebook messenger",
+	"instruction-item7": {
+		"ua": "Вашу картку VISA від Global Ukraine буде доставлено за вказаною європейською адресою",
+		"en": "",
 	},
-	"footer": {
-		"ua": "&copy;Карти Global Ukraine випускаються UAB PayrNet на підставі ліцензії VISA та управляються UAB LinkCy.<br>UAB PayrNet уповноважено Банком Литви відповідно до Закону про електронні гроші та установи електронних грошей (ref LB001994) для випуску електронних грошей і надання відповідних платіжних послуг.<br>UAB LinkCy є агентом UAB PayrNet, зареєстрованого в Банку Литви під номером 305756549. ",
-		"en": "&copy;Global Ukraine Cards are issued by UAB PayrNet pursuant to a licence by VISA and managed by UAB LinkCy. <br>UAB PayrNet is authorised by the Bank of Lithuania under the Law on Electronic Money and Electronic Money Institutions (ref LB001994)  for the issuing of electronic money and provision of the related payment services.<br>UAB LinkCy is an Agent of UAB PayrNet registered with the Bank of Lithuania under number 305756549. ",
+	"instruction-item8": {
+		"ua": "Ставайте амбасадорами й рекомендуйте нас всім вашим друзям",
+		"en": "",
 	},
-	"terms-use": {
-		"ua": "Пропозиції, тарифи та умови використання",
-		"en": "Offers, tarifs and terms of use",
+	"": {
+		"ua": "",
+		"en": "",
 	},
-	"back": {
-		"ua": "Назад",
-		"en": "Back",
+	"": {
+		"ua": "",
+		"en": "",
 	},
-	"back-title": {
-		"ua": "Служба підтримки",
-		"en": "Helpdesk",
+	"": {
+		"ua": "",
+		"en": "",
 	},
-	"head-btn-first": {
-		"ua": "Про Global Ukraine",
-		"en": "About Global Ukraine",
+	"": {
+		"ua": "",
+		"en": "",
 	},
-	"head-btn-second": {
-		"ua": "Новини Global Ukraine",
-		"en": "News Global Ukraine",
-	}
+	"": {
+		"ua": "",
+		"en": "",
+	},
+	"": {
+		"ua": "",
+		"en": "",
+	},
+	"": {
+		"ua": "",
+		"en": "",
+	},
+	"": {
+		"ua": "",
+		"en": "",
+	},
+	"": {
+		"ua": "",
+		"en": "",
+	},
+	"": {
+		"ua": "",
+		"en": "",
+	},
+	"": {
+		"ua": "",
+		"en": "",
+	},
+	"": {
+		"ua": "",
+		"en": "",
+	},
+	"": {
+		"ua": "",
+		"en": "",
+	},
+	"": {
+		"ua": "",
+		"en": "",
+	},
+	"": {
+		"ua": "",
+		"en": "",
+	},
 }
 
 export { langArr };
 
-
-fetch("https://api.youcontrol.market/api/v1/markets-ukraine/search", {
-	"headers": {
-		"accept": "*/*",
-		"accept-language": "ua",
-		"authorization": "Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJSb2xlIjoiUHJlbWl1bSIsIkV4dGVybmFsSWQiOiIyNjEzNjc1IiwiRW1haWwiOiJvZmZpY2VAZ2xvYmFsLXVrcmFpbmUub3JnIiwiUm9sZUxpbWl0cyI6IntcIlJvbGVcIjoyLFwiU2VhcmNoUmVxdWVzdHNQZXJEYXlcIjozMCxcIkNvbnRyYWN0b3JzTGltaXRcIjoxMDAwMCxcIkFsbG93ZWRGZWF0dXJlc1wiOlsxLDEwMCwyXX0iLCJleHAiOjE2NzE5OTc3ODMsImlzcyI6IllDIiwiYXVkIjoieWNtYXJrZXQifQ.Aivk3keJ-aV9ZOIfoT9ckJCAqpJhm-6NJvd2xnjTwTE",
-		"content-type": "application/json",
-		"sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
-		"sec-ch-ua-mobile": "?0",
-		"sec-ch-ua-platform": "\"Windows\"",
-		"sec-fetch-dest": "empty",
-		"sec-fetch-mode": "cors",
-		"sec-fetch-site": "same-site",
-		"x-requested-with": "XMLHttpRequest",
-		"Referer": "https://youcontrol.market/",
-		"Referrer-Policy": "strict-origin-when-cross-origin"
-	},
-	"body": "{\"sortBy\":0,\"contractorsType\":2,\"statuses\":[1],\"containsAllActivityTypes\":false,\"mainActivityTypes\":[455,647,649,633],\"contactsRequired\":true}",
-	"method": "POST"
-});;
