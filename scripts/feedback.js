@@ -2,8 +2,8 @@ const dataFeedback = [
 	[
 		{
 			id: '00',
-			imgMin: "feedback1.png",
-			imgMax: "",
+			imgMin: "feedback1mini.png",
+			imgMax: "feedback1max.png",
 			ukrTitle: "Геннадій Друзенко",
 			ukrDescription: "співзасновник та президент ПДМШ ім. Миколи Пирогова",
 			ukrText: "На початку війни ми зіштовхнулися з проблемою, коли більш ніж половина пожертв з-за кордону, які йшли на ПДМШ, не могли потрапити в Україну. Банки США, Канади, Британії та ЄС блокували трансакції як підозрілі. А гроші, які доходили, йшли тижнями, коли вони були конче потрібні «тут і зараз». Тому українцям вкрай важливо мати свій необанк у Європі, який буде ЄС-івським та українським банком водночас. З усіма гарантіями та репутацією європейського банку і технологічністю українського. Перший добровольчий мобільний шпиталь (ПДМШ) ім. Миколи Пирогова з нетерпінням чекає, коли стане одним із перших клієнтів необанку Global Ukraine.",
@@ -13,8 +13,8 @@ const dataFeedback = [
 		},
 		{
 			id: '01',
-			imgMin: "feedback1.png",
-			imgMax: "",
+			imgMin: "feedback2mini.png",
+			imgMax: "feedback2max.png",
 			ukrTitle: "none",
 			ukrDescription: "none",
 			ukrText: "Успіх України починається з успіху та добробуту кожного з нас. Коли твоя справа приносить прибуток - ти платиш податки, донатиш на армію і робиш свій внесок у перемогу. Тому для українських ФОПів, які співпрацюють із міжнародними замовниками, хочуть залишатися українськими й допомагати рідній країні - банківський додаток Global Ukraine Card є оптимальним рішенням!   Ставши клієнтом фінтех стартапу Global Ukraine, я значно полегшив собі ведення співпраці з міжнародними партнерами. Додаток дозволяє керувати своїми фінансами просто, при цьому з гарантією і безпекою, як у європейських банках. Можна відкрити кілька карток на один IBAN для усіх своїх потреб, і перекази між картками Global Ukraine - безлімітні та безкоштовні.   Усім раджу завантажити додаток і переконатися у всіх його перевагах! Тим більше, що банківський додаток Global Ukraine Card надає новим користувачам безкоштовний пробний період !",
@@ -25,25 +25,33 @@ const dataFeedback = [
 	], [
 		{
 			id: '10',
-			imgMin: "feedback2.png",
-			imgMax: "",
+			imgMin: "feedback3mini.png",
+			imgMax: "feedback3max.png",
 			ukrTitle: "Надія ТОРОУС",
 			ukrDescription: "Віце-президентка ЕLU",
 			ukrText: "Українці навчаються, працюють, творять в Європі вже десятиліттями. Водночас вони не розривають зв’язку з країною, інвестуючи в різноманітні бізнес, наукові та культурні проєкти. Підтримка студентських обмінів та волонтерського руху завжди були важливими для нашої неурядової асоціації ELU (Обміни Лотарингія Україна), а з початком війни стали пріорітетними. Ми дуже швидко стикнулись з проблемою фінансування всіх типів проєктів. Тут потрібен банк, який не тільки є недорогим та ефективним, але й надійним. Тому що прозорість, довіра і репутація благодійних проєктів є основною складовою їх успіху! І ми щиро радіємо, що нарешті в нас буде саме такий банк! Банк, за яким стоїть команда професіоналів, що щиро вірять в благополуччя і розвиток України, як невід'ємної складової успіху Європи.",
 			engTitle: "Nadia Torous",
 			engDescription: "Vice-president of ELU",
-			engText: `Ukrainians have been studying, working, and creating in Europe for decades. At the same time, they do not sever ties with the country, investing in various business, scientific and cultural projects. Support of student exchanges and the volunteer movement have always been important for our non-governmental association ELU (Lorraine Ukraine Exchanges), and with the beginning of the war became a priority. We very quickly faced the problem of financing all types of projects. Here you need a bank that is not only inexpensive and efficient, but also reliable. Because transparency, trust and reputation of charity projects are the main component of their success! And we are sincerely glad that we will finally have such a bank! A bank backed by a team of professionals who sincerely believe in the well-being and development of Ukraine as an integral part of Europe's success.`
+			engText: `Ukrainians have been studying, working, and creating in Europe for decades. At the same time, they do not sever ties with the country, investing in various business, scientific and cultural projects.
+			Support of student exchanges and the volunteer movement have always been important for our non-governmental association ELU (Exchanges Lorraine Ukraine), and with the beginning of the war became a priority. We very quickly faced up with the problem of financing all types of projects. We need a bank that is not only inexpensive and efficient, but also reliable, because transparency, trust and reputation are the main components of success of charity projects. And we are very happy that finally we have such a bank, which is created by a team of professionals who sincerely believe in the well-being and development of Ukraine as an integral part of Europe's success.
+			Nadiya Torous, Vice-President of ELU`
 		},
 		{
 			id: '11',
-			imgMin: "feedback2.png",
-			imgMax: "",
-			ukrTitle: "Віолета МОСКАЛУ",
+			imgMin: "feedback4mini.png",
+			imgMax: "feedback4max.png",
+			ukrTitle: "Др Віолета МОСКАЛУ",
 			ukrDescription: "засновниця Global Ukraine",
 			ukrText: `Наша місія - створити міцний фундамент для збільшення українського впливу у світі. Наш проєкт керується відомим принципом Митрополита Андрія Шептицького "свій до свого по своє", пропонуючи зручний та безпечний банкінг:   - Українцям в Європі, які потребують європейського банківського рахунку для зручного управління операціями в євро. - Українським ФОП-ам в Європі, які працюють з Європейськими або міжнародними партнерами та прагнуть фінансової стабільності, без конверсійних комісій та обмежень національних банків. - Українським благодійним фондам, щоб українська діаспора Європи змогла робити більше донатів без жодних комісій. - Всім українцям, хто підтримує створення української глобальної фінансової системи, з безкоштовними переказами, програмами лояльності та з можливістю генерувати соціальний кешбек для розвитку українських громад у світі.   Банківський додаток Global Ukraine Card - це важливий крок до створення цієї глобальної української екосистеми, коли волонтерські рухи, український бізнес та громади працюють спільно задля наближення перемоги України.   Половина прибутку необанку буде спрямована на підтримку та захист українських громад у світі !`,
-			engTitle: "Violeta MOSKALA",
+			engTitle: "Dr. Violeta MOSKALA",
 			engDescription: "founder of Global Ukraine",
-			engText: `none`
+			engText: `Our mission is to create a solid foundation for increasing Ukrainian influence in the world. Our project offers convenient and safe banking for:
+			- Ukrainians in Europe who need a European bank account for management of operations in euros.
+			- To Ukrainian sole proprietorships in Europe who work with European or international partners and seek financial stability, without conversion commissions and restrictions of national banks.
+			- To Ukrainian charitable foundations, so that the Ukrainian diaspora in Europe can make more donations without any commissions.
+			- To all Ukrainians who support the creation of the Ukrainian global financial system, with free transfers, loyalty programs and the ability to generate social cashback for the development of Ukrainian communities in the world.
+			The Global Ukraine Card banking application is an important step towards the creation of this global Ukrainian ecosystem, when volunteer movements, Ukrainian businesses and communities work together to bring Ukraine closer to victory.
+			Half of the profits of the neobank will be directed to the support and protection of Ukrainian communities in the world!`
 		}
 	]];
 

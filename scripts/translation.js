@@ -20,8 +20,8 @@ const langArr = {
 		"en": "We offer global free and unlimited transfers between Global Ukraine accounts and cards.",
 	},
 	"fopAdvantages-item-title1": {
-		"ua": "Bank account for private entrepreneurs in the Eurozone",
-		"en": "",
+		"ua": "Банківський рахунок ФОП в Єврозоні",
+		"en": "Bank account for private entrepreneurs in the Eurozone",
 	},
 	"fopAdvantages-item-title2": {
 		"ua": "Віртуальні та фізичні картки",
@@ -52,8 +52,8 @@ const langArr = {
 		"en": "take advantage of <span>30%</span> discount on TRIDENT tariff plan for individual accounts.",
 	},
 	"advantages-text-item1": {
-		"ua": "Зручний банківський додаток і клієнтська підтримка українською мовою.",
-		"en": "Convenient banking application and customer support in Ukrainian.",
+		"ua": "Зручний банківський додаток і клієнтська підтримка українською мовою",
+		"en": "Convenient banking application and customer support in Ukrainian",
 	},
 	"advantages-text-item2": {
 		"ua": "Перекази між рахунками та картками Global Ukraine є безкоштовними та безлімітними",
