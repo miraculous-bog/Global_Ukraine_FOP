@@ -3,7 +3,7 @@ const dataFeedback = [
 		{
 			id: '00',
 			imgMin: "feedback1mini.png",
-			imgMax: "feedback1max.png",
+			imgMax: "feedback1max.jpg",
 			ukrTitle: "Геннадій Друзенко",
 			ukrDescription: "співзасновник та президент ПДМШ ім. Миколи Пирогова",
 			ukrText: "На початку війни ми зіштовхнулися з проблемою, коли більш ніж половина пожертв з-за кордону, які йшли на ПДМШ, не могли потрапити в Україну. Банки США, Канади, Британії та ЄС блокували трансакції як підозрілі. А гроші, які доходили, йшли тижнями, коли вони були конче потрібні «тут і зараз». Тому українцям вкрай важливо мати свій необанк у Європі, який буде ЄС-івським та українським банком водночас. З усіма гарантіями та репутацією європейського банку і технологічністю українського. Перший добровольчий мобільний шпиталь (ПДМШ) ім. Миколи Пирогова з нетерпінням чекає, коли стане одним із перших клієнтів необанку Global Ukraine.",
@@ -14,19 +14,19 @@ const dataFeedback = [
 		{
 			id: '01',
 			imgMin: "feedback2mini.png",
-			imgMax: "feedback2max.png",
-			ukrTitle: "none",
-			ukrDescription: "none",
+			imgMax: "feedback2max.jpg",
+			ukrTitle: "Станіслав Пруссов",
+			ukrDescription: "Український підприємець, ФОП",
 			ukrText: "Успіх України починається з успіху та добробуту кожного з нас. Коли твоя справа приносить прибуток - ти платиш податки, донатиш на армію і робиш свій внесок у перемогу. Тому для українських ФОПів, які співпрацюють із міжнародними замовниками, хочуть залишатися українськими й допомагати рідній країні - банківський додаток Global Ukraine Card є оптимальним рішенням!   Ставши клієнтом фінтех стартапу Global Ukraine, я значно полегшив собі ведення співпраці з міжнародними партнерами. Додаток дозволяє керувати своїми фінансами просто, при цьому з гарантією і безпекою, як у європейських банках. Можна відкрити кілька карток на один IBAN для усіх своїх потреб, і перекази між картками Global Ukraine - безлімітні та безкоштовні.   Усім раджу завантажити додаток і переконатися у всіх його перевагах! Тим більше, що банківський додаток Global Ukraine Card надає новим користувачам безкоштовний пробний період !",
-			engTitle: "none",
-			engDescription: "none",
+			engTitle: "Stanislav Prussov",
+			engDescription: "Ukrainian entrepreneur, PE",
 			engText: `"The success of Ukraine begins with the success and growth of each of us. When your business brings profit, you pay taxes, donate to the army and contribute to victory. Therefore, for Ukrainian sole proprietorships, which cooperate with international customers, want to remain Ukrainian and help their country - the Global Ukraine Card banking application is the optimal solution! Having become a client of the fintech startup Global Ukraine, cooperation with international partners became much easier for me. The application allows you to manage your finances in a simple way, with the same guarantee and security as in European banks. You can open several cards for one IBAN for all your needs, and transfers between Global Ukraine cards are unlimited and free. I advise everyone to download the application and discover all its advantages! Especially since the Global Ukraine Card banking application propose free trial period for new users.`
 		}
 	], [
 		{
 			id: '10',
 			imgMin: "feedback3mini.png",
-			imgMax: "feedback3max.png",
+			imgMax: "feedback3max.jpg",
 			ukrTitle: "Надія ТОРОУС",
 			ukrDescription: "Віце-президентка ЕLU",
 			ukrText: "Українці навчаються, працюють, творять в Європі вже десятиліттями. Водночас вони не розривають зв’язку з країною, інвестуючи в різноманітні бізнес, наукові та культурні проєкти. Підтримка студентських обмінів та волонтерського руху завжди були важливими для нашої неурядової асоціації ELU (Обміни Лотарингія Україна), а з початком війни стали пріорітетними. Ми дуже швидко стикнулись з проблемою фінансування всіх типів проєктів. Тут потрібен банк, який не тільки є недорогим та ефективним, але й надійним. Тому що прозорість, довіра і репутація благодійних проєктів є основною складовою їх успіху! І ми щиро радіємо, що нарешті в нас буде саме такий банк! Банк, за яким стоїть команда професіоналів, що щиро вірять в благополуччя і розвиток України, як невід'ємної складової успіху Європи.",
@@ -39,7 +39,7 @@ const dataFeedback = [
 		{
 			id: '11',
 			imgMin: "feedback4mini.png",
-			imgMax: "feedback4max.png",
+			imgMax: "feedback4max.jpg",
 			ukrTitle: "Др Віолета МОСКАЛУ",
 			ukrDescription: "засновниця Global Ukraine",
 			ukrText: `Наша місія - створити міцний фундамент для збільшення українського впливу у світі. Наш проєкт керується відомим принципом Митрополита Андрія Шептицького "свій до свого по своє", пропонуючи зручний та безпечний банкінг:   - Українцям в Європі, які потребують європейського банківського рахунку для зручного управління операціями в євро. - Українським ФОП-ам в Європі, які працюють з Європейськими або міжнародними партнерами та прагнуть фінансової стабільності, без конверсійних комісій та обмежень національних банків. - Українським благодійним фондам, щоб українська діаспора Європи змогла робити більше донатів без жодних комісій. - Всім українцям, хто підтримує створення української глобальної фінансової системи, з безкоштовними переказами, програмами лояльності та з можливістю генерувати соціальний кешбек для розвитку українських громад у світі.   Банківський додаток Global Ukraine Card - це важливий крок до створення цієї глобальної української екосистеми, коли волонтерські рухи, український бізнес та громади працюють спільно задля наближення перемоги України.   Половина прибутку необанку буде спрямована на підтримку та захист українських громад у світі !`,
@@ -106,10 +106,10 @@ const getMurcupModal = (info) => {
 		<div class="content">
 			<i class="fa fa-times close" aria-hidden="true"></i>
 			<img src="img/${info.imgMax}" alt="${info.title}">
-			<h3>${getLanguageVersion(info.ukrTitle, info.engTitle)}</h3>
-			<p>${getLanguageVersion(info.ukrDescription, info.engDescription)}</p>
-			<p>${getLanguageVersion(info.ukrText, info.engText)}</p>
-			<button class="tarifs-net__item-btn backAfterModal lng-btn-close">Назад</button>
+			<h3 class="content-title">${getLanguageVersion(info.ukrTitle, info.engTitle)}</h3>
+			<p class="content-description">${getLanguageVersion(info.ukrDescription, info.engDescription)}</p>
+			<p class="content-text">${getLanguageVersion(info.ukrText, info.engText)}</p>
+			<button class="tarifs-net__item-btn backAfterModal lng-btn-close content-btn">Назад</button>
 		</div>
 	</div>`;
 }

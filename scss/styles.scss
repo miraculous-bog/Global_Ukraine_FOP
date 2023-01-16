@@ -40,7 +40,7 @@ body {
 	color: $main_blue_color;
 	font-family: 'ProbaPro';
 }
-@import 'modal.scss';
+// @import 'modal.scss';
 @import 'loader.scss';
 .wrapper {
 	max-width: 1170px;
@@ -122,56 +122,98 @@ body {
 	display: none;
 }
 /*modal*/
-
 .mymodal{
 	display:none;
-  }
-  
-  .mymodal .overlay{
+	overflow:hidden;
+	}
+	
+	.mymodal .overlay{
 	position:fixed;
 	left:0;
 	top:0;
 	width:100%;
-	height:100%;
+	height:100vh;
 	z-index: 100000;
 	background: rgba(0,0,0,0.7);
-  }
-  
-  .mymodal .content{
-	display:block;
-	margin:50px auto;
+	}
+	
+	.mymodal .content{
+		overflow: scroll;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	margin:20px auto;
 	width:500px;
 	min-height:300px;
+	// height: auto;
 	background-color: #fefefe;
 	border-radius: 10px;
 	padding:20px;
 	color: #333333;
 	position:relative;
+	text-align: center;
+	.content-title {
+	  font-size: 24px;
+	  font-weight: 600;
+	}
+	
+	.content-description {
+	  margin-top: 20px 0;
+	  font-size: 20px;
+	  font-weight: 600;
+	}
+	
+	.content-text {
+	  margin-top: 25px;
+	  font-size: 15px;
+	  line-height: 1.2em;
+	}
+	.content-btn {
+	  padding: 9px 14px;
+	  margin-top: 13px;
+	  background-color: #25b7d3;
+	  font-size: 26px;
+	  color: #fff;
+	  font-weight: 600;
+	  border: 4px solid #00a2bb;
+	  border-radius: 18px;
+	  -webkit-box-shadow: 0px 2px 41px -4px rgba(255,208,18,1);
+	  -moz-box-shadow: 0px 2px 41px -4px rgba(255,208,18,1);
+	  box-shadow: 0px 2px 41px -4px rgba(255,208,18,1);
+	  cursor: pointer;
+	}
+	}
+	
+  .content img {
+	margin: 0 auto;
+	max-width: 100%;
+	max-height:200px;
   }
   
-  .mymodal .close{
+  
+	.mymodal .close{
 	position:absolute;
 	right:20px;
 	top:20px;
 	transition: .5s;
 	cursor: pointer;
-  }
-  
-  .mymodal .close:hover{
+	}
+	
+	.mymodal .close:hover{
 	transform: rotate(180deg);
-  }
-  
-  .mymodal h3{
+	}
+	
+	.mymodal h3{
 	margin-top:0;
-  }
-  
-  @media(max-width:550px){
+	}
+	
+	@media(max-width:550px){
 	.mymodal .content{
 	  width:90%;
 	  margin-top: 5px;
 	  height:90%;
 	}
-  }
+	}
 /* animation-action*/
 
 

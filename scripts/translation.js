@@ -187,7 +187,7 @@ const langArr = {
 			(0,4€ за додаткову транзакцію)</li>`,
 		"en": `<li>IBAN account</li>
 		<li>1 virtual card</li>
-		<li>Includes<span class="tarifs-highlight">10 SEPA transfers and card transactions</span>10 SEPA transfers and card transactions per month (€0.4 per additional transaction)</li>`,
+		<li>Includes<span class="tarifs-highlight">10 SEPA transfers and card transactions</span> per month (€0.4 per additional transaction)</li>`,
 	},
 	"tarifs-item2-name": {
 		"ua": "Оберіг",
