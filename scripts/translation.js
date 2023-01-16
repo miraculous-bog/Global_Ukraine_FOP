@@ -16,8 +16,8 @@ const langArr = {
 		"en": "Your Global Ukraine VISA Card is encoded for victory!",
 	},
 	"fopAdvantages-text": {
-		"ua": `"Свій до свого по своє" - глобальні безкоштовні та безлімітні перекази між власниками рахунків та карт Global Ukraine.`,
-		"en": "We offer global free and unlimited transfers between Global Ukraine accounts and cards.",
+		"ua": `"Свій до свого по своє" - глобальні безкоштовні та безлімітні перекази <br>між власниками рахунків та карт Global Ukraine.`,
+		"en": "We offer global free and unlimited transfers<br> between Global Ukraine accounts and cards.",
 	},
 	"fopAdvantages-item-title1": {
 		"ua": "Банківський рахунок ФОП в Єврозоні",
@@ -140,8 +140,8 @@ const langArr = {
 		"en": "Legal issues and consultations",
 	},
 	"rule-subtitle": {
-		"ua": "Наша мета - дозволити українським ФОП-ам в Європі залишатися українськими й платити податки в Україні !",
-		"en": "Our goal is to allow Ukrainian private entrepreneurs in Europe to remain Ukrainian and pay taxes in Ukraine!",
+		"ua": "Наша мета - дозволити українським ФОП-ам в Європі<br> залишатися українськими й платити податки в Україні !",
+		"en": "Our goal is to allow Ukrainian private entrepreneurs in Europe<br> to remain Ukrainian and pay taxes in Ukraine!",
 	},
 	"rule-item1": {
 		"ua": "З аналізу законодавчих норм вбачається, що чинне законодавство України не забороняє ФОП резиденту України відкривати рахунки у фінансових установах інших країн.",

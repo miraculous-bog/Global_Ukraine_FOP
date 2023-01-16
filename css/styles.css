@@ -191,18 +191,20 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 20px auto;
+  margin: 10px auto;
   width: 500px;
   min-height: 300px;
   background-color: #fefefe;
   border-radius: 10px;
-  padding: 20px;
+  padding: 10px;
   color: #333333;
   position: relative;
   text-align: center; }
   .mymodal .content .content-title {
     font-size: 24px;
-    font-weight: 600; }
+    font-weight: 600;
+    margin-top: 20px;
+    padding-bottom: 12px; }
   .mymodal .content .content-description {
     margin-top: 20px 0;
     font-size: 20px;
@@ -260,12 +262,13 @@ body {
     font-weight: 600;
     color: #fff;
     text-align: center;
-    padding-top: 225px; }
+    padding-top: 5px; }
   .animation-action .animation-action__martketplace {
     display: flex;
     justify-content: space-around;
     width: 430px;
-    margin: 50px auto; }
+    padding-top: 225px;
+    margin: 150px auto 0 auto; }
   .animation-action .animation-action__mockup {
     position: absolute; }
   .animation-action .act-mockup-first {
@@ -281,7 +284,7 @@ body {
 
 @media (max-width: 1300px) {
   .animation-action .animation-action__title {
-    padding-top: 255px; }
+    padding-top: 25px; }
   .animation-action .animation-action__martketplace {
     margin: 10px auto; }
   .animation-action .act-mockup-first {
@@ -304,7 +307,7 @@ body {
     height: auto;
     padding: 20px 0; }
     .animation-action .animation-action__title {
-      padding-top: 265px; }
+      padding-top: 25px; }
     .animation-action .animation-action__martketplace {
       flex-direction: column;
       max-width: 430px;
@@ -421,8 +424,8 @@ body {
       .fop-advantages__items-block .fop-advantages__item .fop-advantages__item-title {
         font-size: 28px;
         font-weight: 600;
-        color: #fff;
-        margin-top: 15px; }
+        color: #2f547d;
+        margin-top: 60px; }
       .fop-advantages__items-block .fop-advantages__item .fop-advantages__item-text {
         margin-top: 0px;
         font-size: 20px; } }
@@ -557,13 +560,12 @@ body {
     font-weight: 600;
     color: #fff;
     text-align: center;
-    padding-top: 200px;
     z-index: 10;
     position: relative; }
   .animation-marketplaces .animation-marketplaces__martketplace {
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
+    padding-top: 150px;
     width: 430px;
     margin: 50px auto;
     z-index: 10;
@@ -592,15 +594,16 @@ body {
     padding-top: 50px; }
     .animation-marketplaces .animation-marketplaces__title {
       font-size: 32px;
-      margin-top: 100px;
+      margin-top: 10px;
       padding: 5px 20px 5px 20px; }
     .animation-marketplaces .animation-marketplaces__martketplace {
       flex-direction: column;
       max-width: 100%;
-      margin: 25px auto; }
+      margin: 25px auto;
+      padding-top: 50px; }
     .animation-marketplaces .mrktp-mockup-first {
       max-width: 195px;
-      bottom: 1%;
+      bottom: 35%;
       height: auto; }
     .animation-marketplaces .mrktp-mockup-second {
       max-width: 220px;
@@ -710,6 +713,9 @@ body {
     height: 161px; } }
 
 /* mission */
+.mission {
+  margin-top: 180px; }
+
 .mission__wrapper {
   margin-top: 120px; }
 
@@ -759,6 +765,8 @@ body {
     margin-top: 50px; } }
 
 @media (max-width: 660px) {
+  .mission {
+    margin-top: 0px; }
   .mission h1 {
     margin-top: 75px; }
   .mission__item img {
@@ -847,8 +855,6 @@ body {
       margin-top: 34px;
       font-size: 18px;
       color: black;
-      font-weight: 500; }
-    .tarifs-net .tarifs-net__item .tarifs-highlight {
       font-weight: 600; }
     .tarifs-net .tarifs-net__item .marketplace-tarifs {
       position: absolute;
