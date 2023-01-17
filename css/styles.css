@@ -158,20 +158,6 @@ body {
   box-shadow: 0px 0px 29px 9px rgba(93, 169, 221, 0.33);
   transition: all 0.5s; }
 
-.fake-btn {
-  display: inline-block;
-  color: #fff;
-  background-color: grey;
-  font-size: 30px;
-  padding: 15px 25px;
-  border-radius: 25px;
-  border: none;
-  -webkit-box-shadow: 0px 0px 29px 9px rgba(93, 169, 221, 0.33);
-  -moz-box-shadow: 0px 0px 29px 9px rgba(93, 169, 221, 0.33);
-  box-shadow: 0px 0px 29px 9px rgba(93, 169, 221, 0.33);
-  margin-top: 40px;
-  display: none; }
-
 /*modal*/
 .mymodal {
   display: none;
@@ -325,10 +311,11 @@ body {
   background-image: url("../img/fop-adv-bg.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: top; }
+  background-size: 100% 100%; }
 
 .fop-advantages__items-block {
   padding-top: 130px;
+  padding-bottom: 70px;
   display: flex;
   justify-content: space-around; }
   .fop-advantages__items-block .fop-advantages__item {
@@ -348,13 +335,13 @@ body {
       font-size: 28px;
       font-weight: 600;
       color: #fff;
-      margin-top: 15px; }
+      margin-top: 15px;
+      height: 100px; }
     .fop-advantages__items-block .fop-advantages__item .fop-advantages__item-text {
-      margin-top: 70px;
       font-size: 20px;
       font-weight: 500;
       line-height: 1.5em;
-      color: #2f547d; }
+      color: white; }
 
 @media (max-width: 1290px) {
   .fop-advantages {
@@ -428,7 +415,8 @@ body {
         margin-top: 60px; }
       .fop-advantages__items-block .fop-advantages__item .fop-advantages__item-text {
         margin-top: 0px;
-        font-size: 20px; } }
+        font-size: 20px;
+        color: #2f547d; } }
 
 /* advantages */
 .advantages-net__item-title-sale {
@@ -814,7 +802,7 @@ body {
   margin-top: 350px; }
   .tarifs-net .tarifs-net__item {
     max-width: 25%;
-    height: 510px;
+    height: 610px;
     padding: 90px 23px 10px 23px;
     position: relative;
     -webkit-box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.15);
@@ -829,6 +817,11 @@ body {
     .tarifs-net .tarifs-net__item .tarifs-net__item-title {
       font-size: 42px;
       font-weight: 600; }
+    .tarifs-net .tarifs-net__item .tarifs-net__item-sale {
+      font-weight: 600;
+      font-size: 18px;
+      color: #ec1d57;
+      margin: 20px 0 20px 0; }
     .tarifs-net .tarifs-net__item .tarifs-net__item-desc {
       font-size: 21px;
       font-weight: 600;
@@ -856,6 +849,8 @@ body {
       font-size: 18px;
       color: black;
       font-weight: 600; }
+    .tarifs-net .tarifs-net__item .tarifs-highlight {
+      font-weight: 500; }
     .tarifs-net .tarifs-net__item .marketplace-tarifs {
       position: absolute;
       display: flex;
@@ -867,7 +862,7 @@ body {
 
 @media (max-width: 950px) {
   .tarifs-net .tarifs-net__item {
-    height: 600px; }
+    height: 700px; }
     .tarifs-net .tarifs-net__item img {
       position: absolute;
       top: -36%;
@@ -966,7 +961,7 @@ body {
 /*footer*/
 .footer-top {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0 15px;
   align-self: end; }
   .footer-top img {
@@ -987,6 +982,21 @@ body {
   text-align: center; }
   .footer-bottom a {
     color: #fff; }
+
+.footer-btn {
+  padding: 5px 27px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  background-color: #25b7d3;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 600;
+  border: 4px solid #00a2bb;
+  border-radius: 18px;
+  -webkit-box-shadow: 0px 2px 41px -4px #ffd012;
+  -moz-box-shadow: 0px 2px 41px -4px #ffd012;
+  box-shadow: 0px 2px 41px -4px #ffd012;
+  cursor: pointer; }
 
 @media (max-width: 860px) {
   .footer-top {

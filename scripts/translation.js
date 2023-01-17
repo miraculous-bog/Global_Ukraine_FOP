@@ -1,11 +1,11 @@
 const langArr = {
 	"mainSlide-title": {
 		"ua": "Global Ukraine Card відкриває Європу для Українського бізнесу!",
-		"en": "Grow your business in Europe and save money to bring the victory of Ukraine closer! ",
+		"en": "A new convenient and secure banking application for Ukrainian private entrepreneurs (FOP) in Europe",
 	},
 	"mainSlide-text": {
-		"ua": "Відкрийте рахунок в Європі для вашого ФОПа на Українські документи. Користуйтесь перші 15 днів БЕЗКОШТОВНО.",
-		"en": "Ukrainian documents and an address (temporary or permanent) in Europe are all you need to open a foreign currency account in euro (for private entrepreneurs) in the European bank for your business.",
+		"ua": "Українські (або європейські) документи та адреса (тимчасова чи постійна) у Європі - все, що потрібно для відкриття валютного єврорахунку (ФОП) у європейському банку для вашого бізнесу.",
+		"en": "Ukrainian (or European) documents and an address (temporary or permanent) in Europe are all you need to open a foreign currency account in euro (for private entrepreneurs) in the European bank for your business.",
 	},
 	"animationAction-title": {
 		"ua": "Почніть користуватися зараз!",
@@ -49,11 +49,11 @@ const langArr = {
 	},
 	"advantages-sale": {
 		"ua": "<span>-30%</span> на рахунок фізичної особи, якщо ви обираєте тарифний план ТРИЗУБ для вашого рахунку ФОП",
-		"en": "take advantage of <span>30%</span> discount on TRIDENT tariff plan for individual accounts.",
+		"en": "take advantage of <span>30%</span> discount on TRYZUB tariff plan for individual accounts.",
 	},
 	"advantages-text-item1": {
-		"ua": "Зручний банківський додаток і клієнтська підтримка українською мовою",
-		"en": "Convenient banking application and customer support in Ukrainian",
+		"ua": "Зручний банківський додаток і клієнтська підтримка українською або англійською мовами",
+		"en": "Convenient banking application and customer support in Ukrainian or in English.",
 	},
 	"advantages-text-item2": {
 		"ua": "Перекази між рахунками та картками Global Ukraine є безкоштовними та безлімітними",
@@ -81,7 +81,7 @@ const langArr = {
 	},
 	"advantages-title-item3": {
 		"ua": "Банківський рахунок ФОП в євро (персональний IBAN)",
-		"en": "Business account in euros (personal IBAN)",
+		"en": "Business account in euros<br> (personal IBAN)",
 	},
 	"advantages-title-item4": {
 		"ua": "Міжнародні перекази без головного болю",
@@ -105,11 +105,11 @@ const langArr = {
 	},
 	"instruction-item2": {
 		"ua": "Вкажіть свою адресу (постійну або тимчасову) в Європі",
-		"en": "Indicate your address (permanent or temporary) in Europe.",
+		"en": "Indicate your address (permanent or temporary) in Europe",
 	},
 	"instruction-item3": {
 		"ua": "Сфотографуйте свій паспорт і зробіть селфі",
-		"en": "Take a picture of your passport and take a selfie.",
+		"en": "Take a picture of your passport and take a selfie",
 	},
 	"instruction-item4": {
 		"ua": "Після перевірки особистості, ваш європейський ФОП рахунок в євро створено - почніть здійснювати перекази",
@@ -117,7 +117,7 @@ const langArr = {
 	},
 	"instruction-item5": {
 		"ua": "Активуйте віртуальну картку Global Ukraine VISA Debit, щоб робити покупки онлайн",
-		"en": "Activate your virtual Global Ukraine VISA Debit card and to shop online.",
+		"en": "Activate your virtual Global Ukraine VISA Debit card and start online shopping",
 	},
 	"instruction-item6": {
 		"ua": "Замовте фізичну картку Global Ukraine VISA Debit",
@@ -125,15 +125,15 @@ const langArr = {
 	},
 	"instruction-item7": {
 		"ua": "Вашу картку VISA від Global Ukraine буде доставлено за вказаною європейською адресою",
-		"en": "Your VISA card from Global Ukraine will be delivered to the specified European address",
+		"en": "Your physical Global Ukraine VISA Debit card will be delivered to indicated European address",
 	},
 	"instruction-item8": {
 		"ua": "Ставайте амбасадорами й рекомендуйте нас всім вашим друзям",
-		"en": "Become ambassadors and recommend us to all your friends",
+		"en": "Become one of our ambassadors and recommend Global Ukraine card to all your friends",
 	},
 	"mission-title": {
-		"ua": "НАША МІСІЯ ОЧИМА ПАРТНЕРІВ ТА КЛІЄНТІВ",
-		"en": "OUR MISSION IS IN THE EYES OF PARTNERS AND CUSTOMERS",
+		"ua": "Наша місія очима партнерів та клієнтів",
+		"en": "Our mission by our partners and customers",
 	},
 	"rule-title": {
 		"ua": "ЮРИДИЧНІ ПИТАННЯ ТА КОНСУЛЬТАЦІЇ",
@@ -153,7 +153,7 @@ const langArr = {
 	},
 	"rule-item3": {
 		"ua": "За загальним правилом ФОП, який зареєстрований відповідно до законодавства України, залишається податковим резидентом України, проте варто зважати на усі чинники в сукупності, з урахуванням індивідуальної ситуації кожного ФОП.",
-		"en": "As a general rule, a sole proprietorship, registered in accordance with the legislation of Ukraine, remains a tax resident of Ukraine, but it is worth considering all factors in aggregate, taking into account the each individual situation.",
+		"en": "As a general rule, a private entrepreneurship, registered in accordance with the legislation of Ukraine, remains a tax resident of Ukraine, but it is worth considering all factors in aggregate, taking into the account each individual situation.",
 	},
 	"rule-tip": {
 		"ua": "За додатковою консультацією - звертайтеся до наших юристів через службу підтримки !",
@@ -185,13 +185,13 @@ const langArr = {
 		<li>1 віртуальна картка </li>
 		<li>Включає <span class="tarifs-highlight">10 SEPA переказів та карткових</span> операцій на місяць
 			(0,4€ за додаткову транзакцію)</li>`,
-		"en": `<li>IBAN account</li>
+		"en": `<li>IBAN EUR account</li>
 		<li>1 virtual card</li>
 		<li>Includes<span class="tarifs-highlight">10 SEPA transfers and card transactions</span> per month (€0.4 per additional transaction)</li>`,
 	},
 	"tarifs-item2-name": {
 		"ua": "Оберіг",
-		"en": "Amulet",
+		"en": "Oberih",
 	},
 	"tarifs-item2-price": {
 		"ua": "10€ / місяць",
@@ -206,18 +206,21 @@ const langArr = {
 		<li> Включає <span class="tarifs-highlight">15 SEPA</span> переказів та карткових операцій на місяць
 			(0,4€ за додаткову транзакцію)</li>`,
 		"en": ` <li>IBAN account</li>
-		<li>1 віртуальна картка </li>
 		<li>1 virtual card 1 physical card</li>
 		<li><span class="tarifs-highlight">2 ATM withdrawals</span> (€1 per additional transaction)</li>
 		<li> Includes <span class="tarifs-highlight">15 SEPA transfers and card transactions</span>  per month (€0.4 per additional transaction)</li>`,
 	},
 	"tarifs-item3-name": {
 		"ua": "Тризуб",
-		"en": "Trident",
+		"en": "Tryzub",
 	},
 	"tarifs-item3-price": {
 		"ua": "20€ / місяць",
 		"en": "€20/month",
+	},
+	"tarifs-item3-sale": {
+		"ua": "-50% на річну підписку за тарифним планом Тризуб до 31/03/2023",
+		"en": "50% discount on an annual subscription to the Tryzub tariff plan until 03/31/2023",
 	},
 	"tarifs-item3-text": {
 		"ua": `<li>Рахунок IBAN EUR</li>
@@ -229,13 +232,21 @@ const langArr = {
 			(0,4€ за додаткову транзакцію)</li>`,
 
 
-		"en": `<li>IBAN account</li>
+		"en": `<li>IBAN EUR account</li>
 		<li>3 virtual cards 3 physical cards</li>
 		<li><span class="tarifs-highlight">3 virtual cards 3 physical cards Includes</span></li>
 		<li>Includes <span class="tarifs-highlight">5 ATM withdrawals</span> (€1 per additional transaction)</li>
 		<li>Includes <span class="tarifs-highlight">25 SEPA transfers and card transactions</span> per month (€0.4 per additional transaction)</li>`,
 	},
-	"btn-get": {
+	"btn-get1": {
+		"ua": "Відкрити рахунок",
+		"en": "Open account",
+	},
+	"btn-get2": {
+		"ua": "Відкрити рахунок",
+		"en": "Open account",
+	},
+	"btn-get3": {
 		"ua": "Відкрити рахунок",
 		"en": "Open account",
 	},
