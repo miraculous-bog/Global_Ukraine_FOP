@@ -140,7 +140,7 @@ const langArr = {
 		"en": "Legal issues and consultations",
 	},
 	"rule-subtitle": {
-		"ua": "Наша мета - дозволити українським ФОП-ам в Європі<br> залишатися українськими й платити податки в Україні !",
+		"ua": "Наша мета - дозволити українським ФОП-ам в Європі<br> залишатися українськими й платити податки в Україні!",
 		"en": "Our goal is to allow Ukrainian private entrepreneurs in Europe<br> to remain Ukrainian and pay taxes in Ukraine!",
 	},
 	"rule-item1": {
@@ -156,7 +156,7 @@ const langArr = {
 		"en": "As a general rule, a private entrepreneurship, registered in accordance with the legislation of Ukraine, remains a tax resident of Ukraine, but it is worth considering all factors in aggregate, taking into the account each individual situation.",
 	},
 	"rule-tip": {
-		"ua": "За додатковою консультацією - звертайтеся до наших юристів через службу підтримки !",
+		"ua": "За додатковою консультацією - звертайтеся до наших юристів через службу підтримки!",
 		"en": "For additional advice, contact our lawyers through the support service!",
 	},
 	"footer-info": {
@@ -183,11 +183,11 @@ const langArr = {
 	"tarifs-item1-text": {
 		"ua": `<li>Рахунок IBAN EUR</li>
 		<li>1 віртуальна картка </li>
-		<li>Включає <span class="tarifs-highlight">10 SEPA переказів та карткових</span> операцій на місяць
-			(0,4€ за додаткову транзакцію)</li>`,
+		<li>Включає 10 SEPA переказів та карткових операцій на місяць
+		<span class="tarifs-highlight">(0,4€ за додаткову транзакцію)</span></li>`,
 		"en": `<li>IBAN EUR account</li>
 		<li>1 virtual card</li>
-		<li>Includes<span class="tarifs-highlight">10 SEPA transfers and card transactions</span> per month (€0.4 per additional transaction)</li>`,
+		<li>Includes 10 SEPA transfers and card transactions per month <span class="tarifs-highlight">(€0.4 per additional transaction)</span></li>`,
 	},
 	"tarifs-item2-name": {
 		"ua": "Оберіг",
@@ -201,14 +201,14 @@ const langArr = {
 		"ua": ` <li>Рахунок IBAN EUR</li>
 		<li>1 віртуальна картка </li>
 		<li>1 фізична картка</li>
-		<li>Включає <span class="tarifs-highlight">2 операції</span> зняття коштів у банкоматах (1€ за
-			додаткову транзакцію)</li>
-		<li> Включає <span class="tarifs-highlight">15 SEPA</span> переказів та карткових операцій на місяць
-			(0,4€ за додаткову транзакцію)</li>`,
-		"en": ` <li>IBAN account</li>
+		<li>Включає 2 операції зняття коштів у банкоматах <span class="tarifs-highlight">(1€ за
+			додаткову транзакцію)</span></li>
+		<li> Включає 15 SEPA переказів та карткових операцій на місяць
+		<span class="tarifs-highlight">(0,4€ за додаткову транзакцію)</span></li>`,
+		"en": ` <li>IBAN EUR account</li>
 		<li>1 virtual card 1 physical card</li>
-		<li><span class="tarifs-highlight">2 ATM withdrawals</span> (€1 per additional transaction)</li>
-		<li> Includes <span class="tarifs-highlight">15 SEPA transfers and card transactions</span>  per month (€0.4 per additional transaction)</li>`,
+		<li>2 ATM withdrawals <span class="tarifs-highlight">(€1 per additional transaction)</span></li>
+		<li> Includes 15 SEPA transfers and card transactions per month <span class="tarifs-highlight">(€0.4 per additional transaction)</span></li>`,
 	},
 	"tarifs-item3-name": {
 		"ua": "Тризуб",
@@ -225,18 +225,18 @@ const langArr = {
 	"tarifs-item3-text": {
 		"ua": `<li>Рахунок IBAN EUR</li>
 		<li>3 віртуальні картки </li>
-		<li><span class="tarifs-highlight">3 фізичні картки</span></li>
-		<li>Включає <span class="tarifs-highlight">5 операцій</span> зняття коштів у банкоматах (1€ за
-			додаткову транзакцію)</li>
-		<li>Включає <span class="tarifs-highlight">25 SEPA</span> переказів та карткових операцій на місяць
-			(0,4€ за додаткову транзакцію)</li>`,
+		<li>3 фізичні картки</li>
+		<li>Включає 5 операцій зняття коштів у банкоматах <span class="tarifs-highlight">(1€ за
+			додаткову транзакцію)</span></li>
+		<li>Включає 25 SEPA переказів та карткових операцій на місяць
+		<span class="tarifs-highlight">(0,4€ за додаткову транзакцію)</span></li>`,
 
 
 		"en": `<li>IBAN EUR account</li>
 		<li>3 virtual cards 3 physical cards</li>
-		<li><span class="tarifs-highlight">3 virtual cards 3 physical cards Includes</span></li>
-		<li>Includes <span class="tarifs-highlight">5 ATM withdrawals</span> (€1 per additional transaction)</li>
-		<li>Includes <span class="tarifs-highlight">25 SEPA transfers and card transactions</span> per month (€0.4 per additional transaction)</li>`,
+		<li>3 virtual cards 3 physical cards</li>
+		<li>Includes 5 ATM withdrawals <span class="tarifs-highlight">(€1 per additional transaction)</span></li>
+		<li>Includes 25 SEPA transfers and card transactions per month <span class="tarifs-highlight">(€0.4 per additional transaction)</span></li>`,
 	},
 	"btn-get1": {
 		"ua": "Відкрити рахунок",
@@ -258,6 +258,10 @@ const langArr = {
 	"btn-more": {
 		"ua": "Показати більше...",
 		"en": "Show more...",
+	},
+	"btn-about": {
+		"ua": "Про нас",
+		"en": "About us",
 	},
 }
 
