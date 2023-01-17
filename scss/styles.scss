@@ -222,7 +222,7 @@ body {
 		display: flex;
 		justify-content: space-around;
 		width: 430px;
-		padding-top: 225px;
+		padding-top: 180px;
 		margin: 150px auto 0 auto;
 	}
 	.animation-action__mockup {
@@ -1287,7 +1287,7 @@ body {
 }
 .possibility {
 	@extend %flex-position;
-	padding: 70px 22px;
+	padding: 110px 22px 20px 22px;
 	background-image: url("../img/main-bg.png");
 	background-repeat: no-repeat;
 	background-position: right top;
