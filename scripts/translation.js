@@ -1,11 +1,19 @@
 const langArr = {
 	"mainSlide-title": {
-		"ua": "Global Ukraine Card відкриває Європу для Українського бізнесу!",
+		"ua": "Новий зручний та безпечний банківський додаток для українських ФОП в Європі",
 		"en": "A new convenient and secure banking application for Ukrainian private entrepreneurs (FOP) in Europe",
 	},
 	"mainSlide-text": {
 		"ua": "Українські (або європейські) документи та адреса (тимчасова чи постійна) у Європі - все, що потрібно для відкриття валютного єврорахунку (ФОП) у європейському банку для вашого бізнесу.",
 		"en": "Ukrainian (or European) documents and an address (temporary or permanent) in Europe are all you need to open a foreign currency account in euro (for private entrepreneurs) in the European bank for your business.",
+	},
+	"mainSlide-title-secondLending": {
+		"ua": "Global Ukraine Card відкриває Європу для Українського бізнесу!",
+		"en": "Global Ukraine Card opens Europe for Ukrainian business!",
+	},
+	"mainSlide-text-secondLending": {
+		"ua": "Відкрийте рахунок в Європі для вашого ФОПа на Українські документи. Користуйтесь перші 15 днів БЕЗКОШТОВНО.",
+		"en": "Open an account in Europe for your FOP on Ukrainian documents. Use the first 15 days for FREE.",
 	},
 	"animationAction-title": {
 		"ua": "Почніть користуватися зараз!",

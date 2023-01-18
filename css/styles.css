@@ -1059,7 +1059,8 @@ body {
       margin-top: 60px; }
     .possibility .possibility__text .possibility__text-title {
       font-size: 42px;
-      font-weight: 600; }
+      font-weight: 600;
+      text-transform: uppercase; }
     .possibility .possibility__text .possibility__text-description {
       font-size: 30px;
       font-weight: 600;
