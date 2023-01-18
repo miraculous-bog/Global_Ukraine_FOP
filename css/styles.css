@@ -961,13 +961,14 @@ body {
 /*footer*/
 .footer-top {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding: 0 15px;
+  align-items: bottom;
   align-self: end; }
   .footer-top img {
     width: 200px;
     height: 215px;
-    padding-top: 250px; }
+    padding-top: 300px; }
   .footer-top .footer-top__info {
     max-width: 765px;
     padding-top: 100px; }
@@ -1064,6 +1065,11 @@ body {
       font-weight: 600;
       margin-top: 65px;
       line-height: 1.2em; }
+    .possibility .possibility__text .possibility__text-sale {
+      font-size: 24px;
+      font-weight: 600;
+      color: #ec1d57;
+      margin-top: 20px; }
   .possibility .possibility__img {
     max-width: 400px;
     max-height: 400px; }
