@@ -91,6 +91,47 @@ body {
 	transform: translateY(0%);
   }
 
+.element-animation-markets {
+	opacity: 0;
+	transform: translateY(20px);
+	transform: scale(1);
+}
+.element-animation-markets.element-show {
+	opacity: 1;
+	transition: all 1.5s;
+	transform: translateY(0%);
+	-webkit-transform: scale(0.7);
+	-ms-transform: scale(0.7);
+	transform: scale(0.7);
+}
+
+.element-animation-cards {
+	opacity: 0;
+	transform: translateY(20px);
+  }
+  
+  .element-animation-cards.element-show {
+	opacity: 1;
+	transition: all 1.5s;
+	transform: translateY(0%);
+	// animation: cards 1.75s linear 2.5s;
+  }
+
+  @keyframes cards {
+
+	from {
+		transform: scale(0.7);
+	 }
+  
+	to {
+
+		transform: scale(1.1);
+	
+	}
+  
+  }
+  
+
 .main-button {
 	display: inline-block;
 	color: #fff;
@@ -224,21 +265,37 @@ body {
 		width: 430px;
 		padding-top: 180px;
 		margin: 150px auto 0 auto;
+		z-index: 100;
+		position: relative;
+	}
+	.animation-action__mockup-container {
+		perspective: 30px;
+		top: -256px;
+		position: relative;
+		// width: 100%;
+		// position: absolute;
+		height: 300px;
 	}
 	.animation-action__mockup {
+	
+
+		max-width: 520px;
+		width: 100%;
+		z-index: 0;
 		position: absolute;
+		transition: transform 0.5s;
+		// -webkit-transition: transform 0.5s;
+		// box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
 	}
 	.act-mockup-first {
-		max-width: 100%;
 		height: auto;
-		bottom: 2%;
-		left: 0;
+		bottom: 0%;
+		left: 5%;
 	}
 	.act-mockup-second {
-		max-width: 100%;
 		height: auto;
-		top: 2%;
-		right: 0;
+		top: -22%;
+		right: 5%;
 	}
 }
 @media (max-width: 1300px) {
@@ -255,7 +312,7 @@ body {
 		}
 		.act-mockup-second {
 			width: 450px;
-			top: 11%;
+			top: -43%;
 		}
 	}
 }
@@ -267,13 +324,16 @@ body {
 		}
 		.act-mockup-second {
 			width: 350px;
-			top: 6%;
+			top: -22%;
 		}
 	}
 }
 @media (max-width: 670px) {
 	.animation-action {
-		height: auto;
+		.animation-action__mockup-container {
+			top: -466px;
+		}
+		height: 550px;
 		padding: 20px 0;
 		.animation-action__title {
 			padding-top: 25px;
@@ -1317,15 +1377,19 @@ body {
 	}
 	.possibility__img {
 		max-width: 400px;
-		max-height: 400px;
+		// max-height: 400px;
+		height: 371px;
 		.possibility__img-card{
+			transition: all 0.5s;
 			max-width: 95%;
 			// margin-top: 66px;
 		}
 	}
 
 }
+
 @media (max-width: 750px) {
+
 	.main-title {
 		margin-top: 60px;
 	}
@@ -1345,7 +1409,8 @@ body {
 		.possibility__img {
 			display: block;
 			margin: 0px auto;
-			max-width: 250px;
+			// padding-left: 10%;
+			max-width: 750px;
 		}
 	}
 }
@@ -1513,6 +1578,7 @@ body {
 .marketplace__container-img {
 	display: block;
 	margin: 0 auto;
+	z-index: 100;
 }
 .marketplace__container-img {
 	width: 200px;
@@ -1636,4 +1702,9 @@ body {
 			display: block;
 		}
 	}
+}
+.marquee {
+	width: 100%;
+margin-top: 80px;
+
 }

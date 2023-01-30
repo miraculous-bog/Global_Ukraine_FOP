@@ -15,6 +15,10 @@ const langArr = {
 		"ua": "Відкрийте рахунок в Європі для вашого ФОПа на Українські документи. Користуйтесь перші 15 днів БЕЗКОШТОВНО.",
 		"en": "Open an account in Europe for your FOP on Ukrainian documents. Use the first 15 days for FREE.",
 	},
+	"mainSlide-sale": {
+		"ua": "Безкоштовний пробний період - 15 днів",
+		"en": "Try our 15-day free trial!",
+	},
 	"animationAction-title": {
 		"ua": "Почніть користуватися зараз!",
 		"en": "Let’s get started now!",
@@ -190,7 +194,7 @@ const langArr = {
 	},
 	"tarifs-item1-text": {
 		"ua": `<li>Рахунок IBAN EUR</li>
-		<li>1 віртуальна картка </li>
+		<li>1 віртуальна картка</li>
 		<li>Включає 10 SEPA переказів та карткових операцій на місяць
 		<span class="tarifs-highlight">(0,4€ за додаткову транзакцію)</span></li>`,
 		"en": `<li>IBAN EUR account</li>
@@ -214,7 +218,8 @@ const langArr = {
 		<li> Включає 15 SEPA переказів та карткових операцій на місяць
 		<span class="tarifs-highlight">(0,4€ за додаткову транзакцію)</span></li>`,
 		"en": ` <li>IBAN EUR account</li>
-		<li>1 virtual card 1 physical card</li>
+		<li>1 virtual card</li>
+		<li>1 physical card</li>
 		<li>2 ATM withdrawals <span class="tarifs-highlight">(€1 per additional transaction)</span></li>
 		<li> Includes 15 SEPA transfers and card transactions per month <span class="tarifs-highlight">(€0.4 per additional transaction)</span></li>`,
 	},
@@ -241,8 +246,8 @@ const langArr = {
 
 
 		"en": `<li>IBAN EUR account</li>
-		<li>3 virtual cards 3 physical cards</li>
-		<li>3 virtual cards 3 physical cards</li>
+		<li>3 virtual cards</li>
+		<li>3 physical cards</li>
 		<li>Includes 5 ATM withdrawals <span class="tarifs-highlight">(€1 per additional transaction)</span></li>
 		<li>Includes 25 SEPA transfers and card transactions per month <span class="tarifs-highlight">(€0.4 per additional transaction)</span></li>`,
 	},
@@ -270,6 +275,10 @@ const langArr = {
 	"btn-about": {
 		"ua": "Про нас",
 		"en": "About us",
+	},
+	"btn-support": {
+		"ua": "Служба підтримки",
+		"en": "Helpdesk",
 	},
 }
 
